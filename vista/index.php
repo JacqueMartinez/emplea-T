@@ -4,6 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<?php 
+require_once '../controladores/Estilo_ctrl.php';
+$estilo = Estilo_ctrl::obtenerEstilo();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -34,7 +38,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-	        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""/></a>
+                
+                
+                
+                
+                <!--Se cambió el logo de la plantilla-->
+                <a class="navbar-brand" href="index.html"><img src="<?php echo $estilo[1]["icono"]?>" alt=""/></a>
+                
+                
+                
+                
+                
 	    </div>
 	    <!--/.navbar-header-->
 	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
