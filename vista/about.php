@@ -1,16 +1,14 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?php
+require_once '../controladores/Estructura_ctrl.php';
+$navbar = Estructura_ctrl::navbar();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Seeking an Job Portal Category Flat Bootstrap Responsive Website Template | About :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Seeking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Seeking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
@@ -21,108 +19,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <!----font-Awesome----->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <!----font-Awesome----->
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container">
-	    <div class="navbar-header">
-	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-	        </button>
-	        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""/></a>
-	    </div>
-	    <!--/.navbar-header-->
-	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
-	        <ul class="nav navbar-nav">
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jobs<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="location.html">Contract Jobs</a></li>
-			            <li><a href="location.html">Walkin Jobs</a></li>
-			            <li><a href="location.html">Jobs by Location</a></li>
-			            <li><a href="location.html">Jobs by Function</a></li>
-			            <li><a href="location.html">Jobs by Industry</a></li>
-			            <li><a href="location.html">Jobs by Company</a></li>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-		            <ul class="dropdown-menu multi-column columns-3">
-			            <div class="row">
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-			            </div>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruiters<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="login.html">Recruiter Updates</a></li>
-			            <li><a href="recruiters.html">Recruiters you are following</a></li>
-			            <li><a href="codes.html">Shortcodes</a></li>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="jobs.html">Walk-ins</a></li>
-			            <li><a href="jobs.html">Bpo Jobs</a></li>
-			            <li><a href="jobs.html">Teaching Jobs</a></li>
-			            <li><a href="jobs.html">Diploma Jobs</a></li>
-			            <li><a href="jobs.html">Tech Support</a></li>
-			            <li><a href="jobs.html">Finance Jobs</a></li>
-			            <li><a href="jobs.html">Part time Jobs</a></li>
-			            <li><a href="jobs.html">Health Care</a></li>
-			            <li><a href="jobs.html">Hospitality</a></li>
-			            <li><a href="jobs.html">Internships</a></li>
-			            <li><a href="jobs.html">Research Jobs</a></li>
-			            <li><a href="jobs.html">Defence Jobs</a></li>
-		            </ul>
-		        </li>
-		        <li><a href="login.html">Login</a></li>
-		        <li><a href="resume.html">Upload Resume</a></li>
-	        </ul>
-	    </div>
-	    <div class="clearfix"> </div>
-	  </div>
-	    <!--/.navbar-collapse-->
-	</nav>
+<?php echo $navbar; ?>
 <div class="banner_1">
 	<div class="container">
 		<div id="search_wrapper1">
@@ -135,18 +36,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</p>
            </div>
 		</div>
-   </div> 
-</div>	
+   </div>
+</div>
 <div class="container">
-    <div class="single">  
+    <div class="single">
        <h2>Advantages</h2>
        <div class="about_top">
 	     <div class="col-md-4 box_7">
   			<div class="list styled custom-list custom-list1">
 				<ul>
-					<li><span class="dropcap">1.</span>  
+					<li><span class="dropcap">1.</span>
 					   <div class="item_content">
-						<h5><a href="#">nunc nobis videntur parum</a></h5> 
+						<h5><a href="#">nunc nobis videntur parum</a></h5>
 						<p> anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur paru.</p>
 						<p class="m_1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
 					   </div>
@@ -157,9 +58,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	     <div class="col-md-4 box_7">
   			<div class="list styled custom-list custom-list1">
 				<ul>
-					<li><span class="dropcap">2.</span>  
+					<li><span class="dropcap">2.</span>
 					   <div class="item_content">
-						<h5><a href="#">nunc nobis videntur parum</a></h5> 
+						<h5><a href="#">nunc nobis videntur parum</a></h5>
 						<p> anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur paru.</p>
 						<p class="m_1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
 					   </div>
@@ -170,9 +71,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	     <div class="col-md-4 box_7">
   			<div class="list styled custom-list custom-list1">
 				<ul>
-					<li><span class="dropcap">3.</span>  
+					<li><span class="dropcap">3.</span>
 					   <div class="item_content">
-						<h5><a href="#">nunc nobis videntur parum</a></h5> 
+						<h5><a href="#">nunc nobis videntur parum</a></h5>
 						<p> anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur paru.</p>
 						<p class="m_1">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
 					   </div>
@@ -189,18 +90,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          <div class="wmuSlider example1">
 			   <div class="wmuSliderWrapper">
 			   	   <h3>Testimonials</h3>
-				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	    <div class="banner-wrap">
 				   	 	    <ul class="grid-1">
 				   	 			<li class="grid-1_left">
 				   	 				<img src="images/f5.jpg" class="img-responsive" alt=""/>
 				   	 			</li>
 				   	 			<li class="grid-1_right">
-				   	 				<p>Garcinia cambogia is one of the main 
-										components in one of the best-selling 
-										supplemental weight loss products, 
-										Hydroxycut., and researchers have 
-										concluded that "the evidence for G. 
+				   	 				<p>Garcinia cambogia is one of the main
+										components in one of the best-selling
+										supplemental weight loss products,
+										Hydroxycut., and researchers have
+										concluded that "the evidence for G.
 										cambogia is not compelling.</p>
 								      <h4><a href="#">annette Doe</a> | Abc Company</h4>
 				   	 			</li>
@@ -208,18 +109,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   	 		</ul>
 				   	    </div>
 					</article>
-				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	    <div class="banner-wrap">
 				   	 	    <ul class="grid-1">
 				   	 			<li class="grid-1_left">
 				   	 				<img src="images/f6.jpg" class="img-responsive" alt=""/>
 				   	 			</li>
 				   	 			<li class="grid-1_right">
-				   	 				<p>Garcinia cambogia is one of the main 
-										components in one of the best-selling 
-										supplemental weight loss products, 
-										Hydroxycut., and researchers have 
-										concluded that "the evidence for G. 
+				   	 				<p>Garcinia cambogia is one of the main
+										components in one of the best-selling
+										supplemental weight loss products,
+										Hydroxycut., and researchers have
+										concluded that "the evidence for G.
 										cambogia is not compelling.</p>
 								      <h4><a href="#">annette Doe</a> | Abc Company</h4>
 				   	 			</li>
@@ -227,18 +128,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				   	 		</ul>
 				   	    </div>
 					</article>
-				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	    <div class="banner-wrap">
 				   	 	    <ul class="grid-1">
 				   	 			<li class="grid-1_left">
 				   	 				<img src="images/f7.jpg" class="img-responsive" alt=""/>
 				   	 			</li>
 				   	 			<li class="grid-1_right">
-				   	 				<p>Garcinia cambogia is one of the main 
-										components in one of the best-selling 
-										supplemental weight loss products, 
-										Hydroxycut., and researchers have 
-										concluded that "the evidence for G. 
+				   	 				<p>Garcinia cambogia is one of the main
+										components in one of the best-selling
+										supplemental weight loss products,
+										Hydroxycut., and researchers have
+										concluded that "the evidence for G.
 										cambogia is not compelling.</p>
 								      <h4><a href="#">annette Doe</a> | Abc Company</h4>
 				   	 			</li>
@@ -253,10 +154,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 	<li><a href="#" class="wmuActive">2</a></li>
                 </ul>
             </div>
-            <script src="js/jquery.wmuSlider.js"></script> 
+            <script src="js/jquery.wmuSlider.js"></script>
 			  <script>
-       			$('.example1').wmuSlider();         
-   		     </script> 	           	      
+       			$('.example1').wmuSlider();
+   		     </script>
       </div>
 </div>
 <div class="about_bottom">
@@ -303,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<a href="#"><i class="fa fa-instagram fa1"> </i></a>
 		</div>
 		<div class="clearfix"> </div>
-	</div>	
+	</div>
 </div>
 <div class="footer">
 	<div class="container">
@@ -348,7 +249,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<div class="footer_bottom">	
+<div class="footer_bottom">
   <div class="container">
     <div class="col-sm-2">
   		<ul class="f_list2">
@@ -384,4 +285,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </div>
 </div>
 </body>
-</html>		
+</html>

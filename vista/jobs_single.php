@@ -1,16 +1,14 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?php
+require_once '../controladores/Estructura_ctrl.php';
+$navbar = Estructura_ctrl::navbar();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Seeking an Job Portal Category Flat Bootstrap Responsive Website Template | Jobs_single :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Seeking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Seeking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
@@ -21,108 +19,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <!----font-Awesome----->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <!----font-Awesome----->
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container">
-	    <div class="navbar-header">
-	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-	        </button>
-	        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""/></a>
-	    </div>
-	    <!--/.navbar-header-->
-	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
-	        <ul class="nav navbar-nav">
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jobs<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="location.html">Contract Jobs</a></li>
-			            <li><a href="location.html">Walkin Jobs</a></li>
-			            <li><a href="location.html">Jobs by Location</a></li>
-			            <li><a href="location.html">Jobs by Function</a></li>
-			            <li><a href="location.html">Jobs by Industry</a></li>
-			            <li><a href="location.html">Jobs by Company</a></li>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-		            <ul class="dropdown-menu multi-column columns-3">
-			            <div class="row">
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="services.html">Action</a></li>
-						            <li><a href="services.html">Another action</a></li>
-						            <li><a href="services.html">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="services.html">One more separated link</a></li>
-					            </ul>
-				            </div>
-			            </div>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruiters<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="login.html">Recruiter Updates</a></li>
-			            <li><a href="recruiters.html">Recruiters you are following</a></li>
-			            <li><a href="codes.html">Shortcodes</a></li>
-		            </ul>
-		        </li>
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="jobs.html">Walk-ins</a></li>
-			            <li><a href="jobs.html">Bpo Jobs</a></li>
-			            <li><a href="jobs.html">Teaching Jobs</a></li>
-			            <li><a href="jobs.html">Diploma Jobs</a></li>
-			            <li><a href="jobs.html">Tech Support</a></li>
-			            <li><a href="jobs.html">Finance Jobs</a></li>
-			            <li><a href="jobs.html">Part time Jobs</a></li>
-			            <li><a href="jobs.html">Health Care</a></li>
-			            <li><a href="jobs.html">Hospitality</a></li>
-			            <li><a href="jobs.html">Internships</a></li>
-			            <li><a href="jobs.html">Research Jobs</a></li>
-			            <li><a href="jobs.html">Defence Jobs</a></li>
-		            </ul>
-		        </li>
-		        <li><a href="login.html">Login</a></li>
-		        <li><a href="resume.html">Upload Resume</a></li>
-	        </ul>
-	    </div>
-	    <div class="clearfix"> </div>
-	  </div>
-	    <!--/.navbar-collapse-->
-	</nav>
+<?php echo $navbar; ?>
 <div class="banner_1">
 	<div class="container">
 		<div id="search_wrapper1">
@@ -135,16 +36,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</p>
            </div>
 		</div>
-   </div> 
-</div>	
+   </div>
+</div>
 <div class="container">
-    <div class="single">  
+    <div class="single">
 	   <div class="col-md-9 single_right">
 	       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 	       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 	       <dl class="experience">
 	       	 <div class="experience_content experience_content1">
-	       	   <div class="experience_period"> 
+	       	   <div class="experience_period">
 	       		 <small>From:</small><br><span>2005</span><br><small>To:</small><br><span>2010</span>
 	       	   </div>
 	       	   <div class="experience_1"><dt><h6>Software Engineer</h6></dt>
@@ -153,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	       		 </dd></div>
 	       	   </div>
 	       	   <div class="experience_content">
-	       	   	<div class="experience_period"> 
+	       	   	<div class="experience_period">
 	       	   	<small>From:</small><br><span>2011</span><br><small>To:</small><br><span>Present</span></div>
 	       	   	<div class="experience_1">
 	       	   	  <dt><h6>Software Engineer</h6></dt>
@@ -195,8 +96,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
           </form>
           <div class="candidates-item">
-          	 <h5>Similar Candidates</h5>	
-            <div class="candidate_1"> 	
+          	 <h5>Similar Candidates</h5>
+            <div class="candidate_1">
 			 <div class="thumb"><img src="images/pic8.jpg" class="img-responsive" alt=""/></div>
              <div class="thumb_desc">
 			   <h6 class="title"><a href="#">consectetur</a></h6>
@@ -210,9 +111,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                </div>
 			   <p class="sm_1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
 			</div>
-			<div class="clearfix"></div>	
+			<div class="clearfix"></div>
 		   </div>
-		   <div class="candidate_1"> 	
+		   <div class="candidate_1">
 			 <div class="thumb"><img src="images/pic7.jpg" class="img-responsive" alt=""/></div>
              <div class="thumb_desc">
 			   <h6 class="title"><a href="#">consectetur</a></h6>
@@ -226,9 +127,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                </div>
 			   <p class="sm_1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
 			</div>
-			<div class="clearfix"></div>	
+			<div class="clearfix"></div>
 		   </div>
-		   <div class="candidate_1"> 	
+		   <div class="candidate_1">
 			 <div class="thumb"><img src="images/pic6.jpg" class="img-responsive" alt=""/></div>
              <div class="thumb_desc">
 			   <h6 class="title"><a href="#">consectetur</a></h6>
@@ -242,9 +143,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                </div>
 			   <p class="sm_1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
 			</div>
-			<div class="clearfix"></div>	
+			<div class="clearfix"></div>
 		   </div>
-		   <div class="candidate_2"> 	
+		   <div class="candidate_2">
 			 <div class="thumb"><img src="images/pic5.jpg" class="img-responsive" alt=""/></div>
              <div class="thumb_desc">
 			   <h6 class="title"><a href="#">consectetur</a></h6>
@@ -258,7 +159,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                </div>
 			   <p class="sm_1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
 			</div>
-			<div class="clearfix"></div>	
+			<div class="clearfix"></div>
 		   </div>
 		</div>
        </div>
@@ -324,7 +225,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
        </div>
        <div class="clearfix"> </div>
     </div>
-</div>    
+</div>
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 grid_3">
@@ -368,7 +269,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<div class="footer_bottom">	
+<div class="footer_bottom">
   <div class="container">
     <div class="col-sm-2">
   		<ul class="f_list2">
@@ -404,4 +305,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </div>
 </div>
 </body>
-</html>	
+</html>
