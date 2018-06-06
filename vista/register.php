@@ -71,7 +71,7 @@
                     <form>
                         <div class="row">                           
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="firstName">First Name</label>
+                                <label class="col-md-3 control-lable" for="firstName">Nombre</label>
                                 <div class="col-md-9">
                                     <input type="text" path="firstName" id="firstName" class="form-control input-sm"/>
                                 </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Last Name</label>
+                                <label class="col-md-3 control-lable" for="lastName">Apellido Paterno</label>
                                 <div class="col-md-9">
                                     <input type="text" path="lastName" id="lastName" class="form-control input-sm"/>
                                 </div>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="aMaterno">Apellido materno</label>
+                                <label class="col-md-3 control-lable" for="aMaterno">Apellido Materno</label>
                                 <div class="col-md-9">
                                     <input type="text" path="aMaterno" id="aMaterno" class="form-control input-sm"/>
                                 </div>
@@ -95,14 +95,14 @@
                         </div>
                         <div class="row">                           
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="sex">Sex</label>
+                                <label class="col-md-3 control-lable" for="sex">Sexo</label>
                                 <div class="col-md-9" class="form-control input-sm">
                                     <div class="radios">
                                         <label for="radio-01" class="label_radio">
-                                            <input type="radio" checked=""> Male
+                                            <input type="radio" checked=""> Masculino
                                         </label>
                                         <label for="radio-02" class="label_radio">
-                                            <input type="radio"> Female
+                                            <input type="radio"> Femenino
                                         </label>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                         </div> 
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="dob">Date of birth</label>
+                                <label class="col-md-3 control-lable" for="dob">Fecha de nacimiento</label>
                                 <div class="col-md-9">
                                     <input type="text" path="dob" id="dob" class="form-control input-sm"/>
                                 </div>
@@ -120,7 +120,7 @@
                                                                                                                                     
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Mobile Number</label>
+                                <label class="col-md-3 control-lable" for="lastName">Telefono</label>
                                 <div class="col-md-9">
                                     <input type="text" path="lastName" id="lastName" class="form-control input-sm"/>
                                 </div>
@@ -129,7 +129,7 @@
                         
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="email">Email</label>
+                                <label class="col-md-3 control-lable" for="email">Correo</label>
                                 <div class="col-md-9">
                                     <input type="text" path="email" id="email" class="form-control input-sm"/>
                                 </div>
@@ -251,7 +251,7 @@
                         
                         <div class="row">
                             <div class="form-actions floatRight">
-                                <input type="submit" value="Register" class="btn btn-primary btn-sm">
+                                <input type="submit" value="Registrarse" class="btn btn-primary btn-sm">
                             </div>
                         </div>
                     </form>
