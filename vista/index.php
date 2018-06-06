@@ -24,7 +24,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <?php echo $navbar; ?>
-<div class="banner">
+<!--<div class="banner">
 	<div class="container">
 		<div id="search_wrapper">
 		 <div id="search_form" class="clearfix">
@@ -144,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	     </div>
        </div>
    </div>
-</div>
+</div>-->
 <div class="container">
   <div class="grid_1">
 	 <h3>Empresas buscando personal</h3>
@@ -304,10 +304,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"> </div>
 		   </div>
 		   <div class="col_1">
-   	        <div class="col-sm-4 row_2">
+   	        <!--<div class="col-sm-4 row_2">
 				<a href="single.html"><img src="images/a3.jpg" class="img-responsive" alt=""/></a>
-			</div>
-			<div class="col-sm-8 row_1">
+			</div>-->
+			<div class="col-sm-12 row_1">
 				<h4><a href="single.html">There are many variations</a></h4>
 				<h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
 				<p>YBut I must explain to you how all this mistaken idea of denouncing pleasure.</p>
