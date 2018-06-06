@@ -1,6 +1,6 @@
-<?php
-require_once '../controladores/Estructura_ctrl.php';
-$navbar = Estructura_ctrl::navbar();
+<?php 
+//require_once '../controladores/Estructura_ctrl.php';
+//$navbar = Estructura_ctrl::navbar();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -23,7 +23,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!----font-Awesome----->
 </head>
 <body>
-<?php echo $navbar; ?>
+    <nav class="navbar navbar-default" role="navigation">
+      	<div class="container">
+      	    <div class="navbar-header">
+      	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      		        <span class="sr-only">Toggle navigation</span>
+      		        <span class="icon-bar"></span>
+      		        <span class="icon-bar"></span>
+      		        <span class="icon-bar"></span>
+      	        </button>
+                <a class="navbar-brand" href="index.php"><img src="recursos/logo.png" alt=""/></a>
+      	    </div>
+      	    <!--/.navbar-header-->
+      	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+      	        <ul class="nav navbar-nav">
+      						<li><a href="jobs.php">Empleos</a></li>
+      						<li><a href="#">Publicar oferta</a></li>
+      		        <li><a href="login.php">Iniciar sesíon</a></li>
+      						<li><a href="register.php">Crear cuenta</a></li>
+      		        <li><a href="resume.php">Subir curriculum</a></li>
+      	        </ul>
+      	    </div>
+      			<!--/.navbar-collapse-->
+      	    <div class="clearfix"> </div>
+      	  </div>
+      		<!--/.container-->
+      </nav>
+      <!--/.navbar-default-->
 <!--<div class="banner">
 	<div class="container">
 		<div id="search_wrapper">

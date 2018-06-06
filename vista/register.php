@@ -1,6 +1,6 @@
-<?php
-require_once '../controladores/Estructura_ctrl.php';
-$navbar = Estructura_ctrl::navbar();
+<?php 
+//require_once '../controladores/Estructura_ctrl.php';
+//$navbar = Estructura_ctrl::navbar();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -301,7 +301,7 @@ $navbar = Estructura_ctrl::navbar();
                 <div class="clearfix"> </div>
             </div>
         </div>
-        <div class="footer_bottom">
+        <!--<div class="footer_bottom">
             <div class="container">
                 <div class="col-sm-2">
                     <ul class="f_list2">
@@ -335,6 +335,6 @@ $navbar = Estructura_ctrl::navbar();
                     <p>Copyright © 2015 Seeking . All Rights Reserved . Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
                 </div>
             </div>
-        </div>
+        </div>-->
     </body>
 </html>
