@@ -1,7 +1,4 @@
-<!--<?php
-require_once '../controladores/Estructura_ctrl.php';
-$navbar = Estructura_ctrl::navbar();
-?>-->
+
 <!DOCTYPE HTML>
 <html>
     <head>
