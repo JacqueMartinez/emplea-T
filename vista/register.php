@@ -41,7 +41,7 @@
       						<li><a href="#">Publicar oferta</a></li>
       		        <li><a href="login.php">Iniciar sesíon</a></li>
       						<li><a href="register.php">Crear cuenta</a></li>
-      		        <li><a href="resume.php">Subir curriculum</a></li>
+      		        <li><a href="resume.php">Busco empleo</a></li>
       	        </ul>
       	    </div>
       			<!--/.navbar-collapse-->
@@ -67,7 +67,7 @@
         <div class="container">
             <div class="single">
                 <div class="form-container">
-                    <h2>Datos del usuario</h2>
+                    <h2>Registro</h2>
                     <form>
                         <div class="row">                           
                             <div class="form-group col-md-12">
@@ -93,40 +93,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">                           
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="sex">Sexo</label>
-                                <div class="col-md-9" class="form-control input-sm">
-                                    <div class="radios">
-                                        <label for="radio-01" class="label_radio">
-                                            <input type="radio" checked=""> Masculino
-                                        </label>
-                                        <label for="radio-02" class="label_radio">
-                                            <input type="radio"> Femenino
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>  
-                        </div> 
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="dob">Fecha de nacimiento</label>
-                                <div class="col-md-9">
-                                    <input type="text" path="dob" id="dob" class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>
-                        <h2>Datos de contacto</h2>
-                                                                                                                                    
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Telefono</label>
-                                <div class="col-md-9">
-                                    <input type="text" path="lastName" id="lastName" class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>
-                        
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label class="col-md-3 control-lable" for="email">Correo</label>
@@ -135,19 +101,23 @@
                                 </div>
                             </div>
                         </div>    
-                        <h2>Tipo de cuenta</h2>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="tipoCuenta">Selecciona el tipo de cuenta</label>
+                                <label class="col-md-3 control-lable" for="email">Contraseña</label>
                                 <div class="col-md-9">
-                                    <select path="tipoCuenta" id="tipoCuenta" class="form-control input-sm">                                        
-                                        <option value="">Empleador</option>
-                                        <option value="">Empleado</option>
-                                    </select>
-
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="contraseña123">
                                 </div>
-                            </div>
-                        </div>
+                            </div>      
+			</div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label class="col-md-3 control-lable" for="email">Confirmar contraseña</label>
+                                <div class="col-md-9">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="contraseña123">
+                                </div>
+                            </div>      
+			</div>
+                        
                         <!-- SECCIONES SIN UTILIZAR
                         <div class="row">
                             <div class="form-group col-md-12">

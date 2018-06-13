@@ -33,12 +33,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <input type="text" class="text" placeholder=" " value="Enter Keyword(s)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Keyword(s)';}">
 			 <input type="text" class="text" placeholder=" " value="Location" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Location';}">
 			 <label class="btn2 btn-2 btn2-1b"><input type="submit" value="Find Jobs"></label>
-			</p>
+                    </p>
            </div>
-		</div>
+        </div>
    </div>
 </div>
-<div class="container">
+<!--<div class="container">
     <div class="single">
 	   <div class="form-container">
         <h2>Upload Your Resume</h2>
@@ -51,7 +51,152 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	    </div>
     </div>
  </div>
+</div>-->
+<!--contenido-->
+<div class="container">
+    <div class="single">  
+	   <div class="form-container">
+        <h2>Busco empleo</h2>
+        <form>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-3 control-lable" for="direccion">Direcciòn</label>
+                    <div class="col-md-9">
+                        <input type="text" path="direccion" id="direccion" class="form-control input-sm"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label class="col-md-3 control-lable" for="direccion">Telefono</label>
+                    <div class="col-md-9">
+                        <input type="text" path="direccion" id="direccion" class="form-control input-sm"/>
+                    </div>
+                </div>
+            </div>
+              <div class="row">
+                                <div class="form-group col-md-12">
+                                 <label class="col-md-3 control-lable" for="tipoCuenta">Escolaridad</label>
+                                <div class="col-md-9">
+                                    <select path="tipoCuenta" id="tipoEmpleo" class="form-control input-sm">                                        
+                                        <option value="">seleccionar una opcion </option>
+                                        <option value="">Preescolar</option>
+                                        <option value="">Primaria</option>
+                                        <option value="">Secundaria</option>
+                                        <option value="">Bachillerato</option>
+                                        <option value="">Profesional tecnico</option>
+                                         <option value="">Licenciatura</option>
+                                          <option value="">Posgrado</option>
+                                           <option value="">Maestria</option>
+                                            <option value="">Doctorado</option>
+                                    </select>
+                                </div>  
+                                </div>
+                            </div>
+            <div class="col-md-12">
+                    <div class="col-md-6">
+                            <div class="search_form1">
+		    <form action="">
+			  <!--<input type="text" class="text" placeholder=" " value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}"><br>-->
+			  <input type="file" name="myfile">
+                    </form>
+                     </div>
+                     </div>
+                <div class="col-md-2">
+                    <input type="submit" value="Subir CV" btn-danger>
+                </div>
+               
+                <div class="col-md-4">
+                      <div class="form-actions floatRight">
+                          
+                                     <a href="" data-toggle="modal" data-target="#modalcategoria" type="submit "class=" btn btn-primary btn-info btn-danger">Especialidad</a>
+                      </div>
+                </div> 
+            </div>
+             <div class="row">
+                                <div class="form-group col-md-12">
+                                <div class="form-actions floatRight" class="">
+                                    <input type="submit" value="Buscar" class="btn btn-primary btn-danger">
+                                </div>
+                                </div> 
+             </div>
+        </form>
+    </div>
+ </div>
 </div>
+<!--modal-->
+<div id="modalcategoria" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Area de trabajo</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-container">
+							<div class="form-group col-md-12">
+                                                                <div class="col-md-12">
+	   	  <div class="widget_search">
+			<div class="widget-content">
+				<span>Area</span>
+                <select class="form-control jb_1">
+					<option value="1">Administrativos</option>
+					<option value="2">Biología</option>
+					<option value="3">Comunicaciones</option>
+					<option value="4">Contabilidad</option>
+                                        <option value="5">Construcción</option>
+                                        <option value="6">Creatividad, Producción y Diseño Comercial</option>
+                                        <option value="7">Derecho y Leyes</option>
+                                        <option value="8">Educación</option>
+                                        <option value="9">Ingeniería</option>
+                                        <option value="10">Logística, Transportación y Distribución</option>
+                                        <option value="11">Manufactura, Producción y Operación</option>
+                                        <option value="12">Mercadotecnia, Publicidad y Relaciones Públicas</option>
+                                        <option value="13">Recursos Humanos</option>
+                                        <option value="14">Salud y Belleza</option>
+                                        <option value="15">Sector Salud</option>
+                                        <option value="16">Seguro y Reaseguro</option>
+                                        <option value="17">Tecnologías de la Información / Sistemas</option>
+                                        <option value="18">Turismo, Hospitalidad y Gastronomía</option>
+                                        <option value="19">Ventas </option>
+                                        <option value="20">Veterinaria / Zoología</option>
+                </select>
+                <span>Especialidad</span>
+                        <select class="form-control jb_1">
+					<option value="-1">Selecciona una opción</option>
+                                        <option value="358">Estilista</option>
+                                        <option value="359">Instructor Deportivo</option>
+                                        <option value="360">Manicurista</option>
+                                        <option value="361">Masajista</option>
+                                        <option value="363">Pedicurista</option>
+                                        <option value="364">Spa</option>
+                                        <option value="365">Terapeuta</option>
+				</select>
+			</div>
+                  </div>
+	   </div>
+                                                         </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-md-6">
+						      <button type="submit" class="btn btn-default">Aceptar</button>
+						    </div>
+						  </div>
+							
+					
+				
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default danger" data-dismiss="modal">Cerrar</button>
+					</div>
+                                    </div>
+				</div>
+
+			</div>
+			<!--/.modal fade-->
+		</div>
+<!--modal-->
+<!--contenido-->
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 grid_3">
@@ -95,8 +240,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	</div>
 </div>
-<div class="footer_bottom">
-  <div class="container">
+<div class="footer_bottom">	
+  <!--<div class="container">
     <div class="col-sm-2">
   		<ul class="f_list2">
 			<li><a href="jobs.html">Russia Jobs</a></li>
@@ -128,7 +273,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="copy">
 		<p>Copyright © 2015 Seeking . All Rights Reserved . Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 	</div>
-  </div>
+  </div>-->
 </div>
 </body>
 </html>

@@ -379,7 +379,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
 	</ul>
    </div>
-   <div class="col-md-3">
+  <div class="col-md-3">
 	   	  <div class="widget_search">
 			<h5 class="widget-title">Search</h5>
 			<div class="widget-content">
@@ -392,7 +392,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<option value="">Category</option>
 				</select>
                 <span>in</span>
-                <input type="text" class="form-control jb_2" placeholder="Location">
+                < input type="text" class="form-control jb_2" placeholder="Location">
                 <input type="text" class="form-control jb_2" placeholder="Industry / Role">
                 <input type="submit" class="btn btn-default" value="Search">
 			</div>

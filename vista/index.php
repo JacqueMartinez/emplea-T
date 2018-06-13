@@ -43,10 +43,10 @@
                 <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
                     <ul class="nav navbar-nav">
                         <li><a href="jobs.php">Empleos</a></li>
-                        <li><a href="#">Publicar oferta</a></li>
+                        <li><a href="about.php">Publicar oferta</a></li>
                         <li><a href="login.php">Iniciar sesíon</a></li>
                         <li><a href="register.php">Crear cuenta</a></li>
-                        <li><a href="resume.php">Subir curriculum</a></li>
+                        <li><a href="resume.php">Busco empleo</a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
