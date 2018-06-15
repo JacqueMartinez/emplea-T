@@ -415,7 +415,43 @@ $(window).load(function () {
                 <div class="clearfix"> </div>
             </div>
         </div>
+        
         <div class="footer">
+            <div class="container">
+                <div class="col-md-4 grid_3">
+                    <h4>Nosotros</h4>
+                    <ul class="f_list f_list1">
+                        <li><a href="index.html">BIT</a></li>
+                        <li><i class="fa fa-facebook fb"></i></li>
+                        <li><i class="fa fa-twitter tw"></i></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4 grid_3">
+                    <ul class="f_list f_list1">
+                        <li><a href="features.html">DEVSOFT</a></li>
+                        
+                        <li><i class="fa fa-facebook fb"></i></li>
+                        <li><i class="fa fa-twitter tw"></i></li>
+                        
+                        
+                    </ul>
+                    <div class="clearfix"> </div>
+                
+                </div>
+                               
+                <div class="col-md-4 grid_3">
+                    <h4>Sign up for our newsletter</h4>
+                    <p></p>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Comentarios">
+                        <button type="button" class="btn red">Enviar</button>
+                    </form>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--<div class="footer">
             <div class="container">
                 <div class="col-md-3 grid_3">
                     <h4>Navigate</h4>
@@ -463,7 +499,7 @@ $(window).load(function () {
                 </div>
                 <div class="clearfix"> </div>
             </div>
-        </div>
+        </div>-->
         <!--<div class="footer_bottom">
                 <div class="container">
                         <div class="col-sm-2">
@@ -534,3 +570,4 @@ $(window).load(function () {
         </div>
     </body>
 </html>
+                                                                                                                       

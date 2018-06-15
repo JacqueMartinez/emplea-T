@@ -21,8 +21,8 @@ body a{
 	-ms-transition:0.5s all;
 }
 .navbar-default {
-    background-color: #f15f43 !important;
-    border-color: #f15f43;
+    background-color: #003cb3 !important;
+    border-color: #003cb3;
     border-radius: 0px;
 }
 .navbar-default .navbar-nav > li > a {
