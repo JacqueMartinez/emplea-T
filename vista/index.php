@@ -178,22 +178,23 @@
         </div>-->
         <div class="container">
             <div class="grid_1">
-                <h3>Featured Employers</h3>
+                <h3>Empresas contratando</h3>
                 <ul id="flexiselDemo3">
-                    <li><img src="images/c1.gif" class="img-responsive" /></li>
-                    <li><img src="images/c2.gif" class="img-responsive" /></li>
-                    <li><img src="images/c3.gif" class="img-responsive" /></li>
-                    <li><img src="images/c4.gif" class="img-responsive" /></li>
-                    <li><img src="images/c5.gif" class="img-responsive" /></li>
-                    <li><img src="images/c6.gif" class="img-responsive" /></li>
+                    <li><img src="images/sld01.png" class="img-responsive" /></li>
+                    <li><img src="images/sld02.jpg" class="img-responsive" /></li>
+                    <li><img src="images/sld03.png" class="img-responsive" /></li>
+                    <li><img src="images/sld04.jpg" class="img-responsive" /></li>
+                    <li><img src="images/sld05.png" class="img-responsive" /></li>
+                    <li><img src="images/sld06.png" class="img-responsive" /></li>
+                  
                 </ul>
                 <script type="text/javascript">
 $(window).load(function () {
     $("#flexiselDemo3").flexisel({
-        visibleItems: 6,
-        animationSpeed: 1000,
-        autoPlay: false,
-        autoPlaySpeed: 3000,
+        visibleItems: 5,
+        animationSpeed: 2000,
+        autoPlay: true,
+        autoPlaySpeed: 2000,
         pauseOnHover: true,
         enableResponsiveBreakpoints: true,
         responsiveBreakpoints: {
@@ -219,34 +220,24 @@ $(window).load(function () {
             <div class="single">
                 <div class="col-md-4">
                     <div class="col_3">
-                        <h3>Todays Jobs</h3>
+                        <h3>Ofertas de empleo</h3>
                         <ul class="list_1">
-                            <li><a href="#">Department of Health - Western Australia</a></li>
-                            <li><a href="#">Australian Nursing Agency currently require experiences</a></li>
-                            <li><a href="#">Russia Nursing Agency currently require experiences</a></li>
-                            <li><a href="#">The Government of Western Saudi Arbia</a></li>
-                            <li><a href="#">Department of Health - Western Australia</a></li>
-                            <li><a href="#">Australian Nursing Agency currently require experiences</a></li>
-                            <li><a href="#">Russia Nursing Agency currently require experiences</a></li>
-                            <li><a href="#">The Scientific Publishing Services in Saudi Arbia</a></li>
-                            <li><a href="#">BPO Private Limited in Canada</a></li>
-                            <li><a href="#">Executive Tracks Associates in Pakistan</a></li>
-                            <li><a href="#">Pyramid IT Consulting Pvt. Ltd. in Pakistan</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Estamos contratando</a></li>
+                            <li><a href="#">Solicito encargado de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
+                            <li><a href="#">Solicito personal en el area de..</a></li>
                         </ul>
                     </div>
                     <div class="col_3">
-                        <h3>Jobs by Category</h3>
-                        <ul class="list_2">
-                            <li><a href="#">Railway Recruitment</a></li>
-                            <li><a href="#">Air Force Jobs</a></li>
-                            <li><a href="#">Police Jobs</a></li>
-                            <li><a href="#">Intelligence Bureau Jobs</a></li>
-                            <li><a href="#">Army Jobs</a></li>
-                            <li><a href="#">Navy Jobs</a></li>
-                            <li><a href="#">BSNL Jobs</a></li>
-                            <li><a href="#">Software Jobs</a></li>
-                            <li><a href="#">Research Jobs</a></li>
-                        </ul>
+                        <h3></h3>
+                        
                     </div>
                     <!--<div class="widget">
                             <h3>Take The Seeking Poll!</h3>
@@ -286,28 +277,87 @@ $(window).load(function () {
                 </div>
                 <div class="col-md-8">
                     <div class="grid_1" style="padding: 10px;">
-                        <h3>Featured Employers</h3>                        
+                        <h3>En busca de empleo</h3>                        
+                    </div>
+                    <div class="col_1">
+                        <!--<div class="col-sm-4 row_2">
+                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
+                        </div>-->
+                        
+                        <div class="clearfix"> </div>
                     </div>
                     <div class="col_1">
                         <!--<div class="col-sm-4 row_2">
                                 <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
                         </div>-->
                         <div class="col-sm-8 row_1">
-                            <h4><a href="single.html">It is a long established fact</a></h4>
-                            <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                            <h4><a href="single.html">Busco trabajo en ...</a></h4>
+                            <h6>Llámame... <span class="dot">·</span> Jul. 31, 2015</h6>
+                            <p>Tengo experiencia en ....</p>
                             <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
-                                    <span class="share1 fb">Share</span>
+                                    <span class="share1 fb">Comparte</span>
                                 </a>
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-twitter tw"></i>
-                                    <span class="share1">Tweet</span>
+                                    <span class="share1">Tweetea</span>
                                 </a>
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-google-plus google"></i>
-                                    <span class="share1 google">Share</span>
+                                    <span class="share1 google">Comparte</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    
+                    <div class="col_1">
+                        <!--<div class="col-sm-4 row_2">
+                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
+                        </div>-->
+                        <div class="col-sm-8 row_1">
+                            <h4><a href="single.html">Busco trabajo en ...</a></h4>
+                            <h6>Llámame... <span class="dot">·</span> Jul. 31, 2015</h6>
+                            <p>Tengo experiencia en ....</p>
+                            <div class="social">
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-facebook fb"></i>
+                                    <span class="share1 fb">Comparte</span>
+                                </a>
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-twitter tw"></i>
+                                    <span class="share1">Tweetea</span>
+                                </a>
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-google-plus google"></i>
+                                    <span class="share1 google">Comparte</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    
+                    <div class="col_1">
+                        <!--<div class="col-sm-4 row_2">
+                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
+                        </div>-->
+                        <div class="col-sm-8 row_1">
+                            <h4><a href="single.html">Busco trabajo en ...</a></h4>
+                            <h6>Llámame... <span class="dot">·</span> Jul. 31, 2015</h6>
+                            <p>Tengo experiencia en ....</p>
+                            <div class="social">
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-facebook fb"></i>
+                                    <span class="share1 fb">Comparte</span>
+                                </a>
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-twitter tw"></i>
+                                    <span class="share1">Tweetea</span>
+                                </a>
+                                <a class="btn_1" href="#">
+                                    <i class="fa fa-google-plus google"></i>
+                                    <span class="share1 google">Comparte</span>
                                 </a>
                             </div>
                         </div>
@@ -318,97 +368,33 @@ $(window).load(function () {
                                 <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
                         </div>-->
                         <div class="col-sm-8 row_1">
-                            <h4><a href="single.html">It is a long established fact</a></h4>
-                            <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                            <h4><a href="single.html">Busco trabajo en ...</a></h4>
+                            <h6>Llámame... <span class="dot">·</span> Jul. 31, 2015</h6>
+                            <p>Tengo experiencia en ....</p>
                             <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
-                                    <span class="share1 fb">Share</span>
+                                    <span class="share1 fb">Comparte</span>
                                 </a>
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-twitter tw"></i>
-                                    <span class="share1">Tweet</span>
+                                    <span class="share1">Tweetea</span>
                                 </a>
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-google-plus google"></i>
-                                    <span class="share1 google">Share</span>
+                                    <span class="share1 google">Comparte</span>
                                 </a>
                             </div>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="col_1">
-                        <!--<div class="col-sm-4 row_2">
-                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
-                        </div>-->
-                        <div class="col-sm-8 row_1">
-                            <h4><a href="single.html">It is a long established fact</a></h4>
-                            <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                            <div class="social">
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-facebook fb"></i>
-                                    <span class="share1 fb">Share</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-twitter tw"></i>
-                                    <span class="share1">Tweet</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-google-plus google"></i>
-                                    <span class="share1 google">Share</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
+                        
                     </div><div class="col_1">
                         <!--<div class="col-sm-4 row_2">
                                 <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
                         </div>-->
-                        <div class="col-sm-8 row_1">
-                            <h4><a href="single.html">It is a long established fact</a></h4>
-                            <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                            <div class="social">
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-facebook fb"></i>
-                                    <span class="share1 fb">Share</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-twitter tw"></i>
-                                    <span class="share1">Tweet</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-google-plus google"></i>
-                                    <span class="share1 google">Share</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div><div class="col_1">
-                        <!--<div class="col-sm-4 row_2">
-                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
-                        </div>-->
-                        <div class="col-sm-8 row_1">
-                            <h4><a href="single.html">It is a long established fact</a></h4>
-                            <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                            <div class="social">
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-facebook fb"></i>
-                                    <span class="share1 fb">Share</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-twitter tw"></i>
-                                    <span class="share1">Tweet</span>
-                                </a>
-                                <a class="btn_1" href="#">
-                                    <i class="fa fa-google-plus google"></i>
-                                    <span class="share1 google">Share</span>
-                                </a>
-                            </div>
-                        </div>
+                       
                         <div class="clearfix"> </div>
                     </div>
                 </div>
@@ -419,34 +405,33 @@ $(window).load(function () {
         <div class="footer">
             <div class="container">
                 <div class="col-md-4 grid_3">
-                    <h4>Nosotros</h4>
+                    <h4 style="text-align: center">Nosotros</h4>
                     <ul class="f_list f_list1">
-                        <li><a href="index.html">BIT</a></li>
-                        <li><i class="fa fa-facebook fb"></i></li>
-                        <li><i class="fa fa-twitter tw"></i></li>
+                        <li><a href="" style="color: #99ffdd" >BIT</a></li>
+                        <li><img src="images/bit.png" width="120" height="120" class="img-responsive" /></li>
+                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
+                        <li></li>
                         
                     </ul>
                 </div>
                 <div class="col-md-4 grid_3">
                     <ul class="f_list f_list1">
-                        <li><a href="features.html">DEVSOFT</a></li>
+                        <li><br><a href="" style="color: #99ffdd">DEVSOFT</a></li>
                         
-                        <li><i class="fa fa-facebook fb"></i></li>
-                        <li><i class="fa fa-twitter tw"></i></li>
-                        
-                        
+                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
+                                    
                     </ul>
                     <div class="clearfix"> </div>
                 
                 </div>
                                
                 <div class="col-md-4 grid_3">
-                    <h4>Sign up for our newsletter</h4>
-                    <p></p>
+                    <h4></h4>
                     <form>
                         <input type="text" class="form-control" placeholder="Comentarios">
                         <button type="button" class="btn red">Enviar</button>
                     </form>
+                    <p><br> ©2018 EMPLEA-T &emsp;| &emsp;POLÍTICA DE PRIVACIDAD</p>
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -569,5 +554,4 @@ $(window).load(function () {
             <!--/.modal fade-->
         </div>
     </body>
-</html>
-                                                                                                                       
+</html>                                                                                                     

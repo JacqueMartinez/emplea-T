@@ -179,10 +179,21 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>           
-                        <br>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <div class="col-md-12">
+                                  <!--  <input type="submit" value="Guardar" />
+                                    <h4>soy un boton</h4>  -->
+                                    <button type="button" onclick="alert('Hello world!')">Editar</button>
+                                </div>
+                            </div>
+                        </div>
+                          <br>
                         
                         <h2></h2>
+                        
+                      
                        
                         <!--    <div class="row">
                         

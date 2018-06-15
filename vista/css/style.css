@@ -34,7 +34,7 @@ body a{
    margin-bottom:0;
 }
 .navbar-nav {
-   margin: 18px 0 0 0;
+   margin: 20px 0 20px 0;
    float:right;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -249,7 +249,7 @@ h2.title {
 }
 /*-- content-- */
 .grid_1{
-	padding:7em 0 2em;
+	padding:6em 0 4em;
 }
 .grid_1 h3{
 	color:#000;
