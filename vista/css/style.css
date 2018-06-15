@@ -39,7 +39,7 @@ body a{
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color:#2185C5;
+    background-color:#000000;
 }
 .navbar-brand {
    height:100%;
@@ -194,7 +194,8 @@ body a{
 h2.title {
     font-size: 1.5em;
     border-bottom: none;
-    color: #ff821c !important;
+    /* aqui edite hoy */
+    color: #003cb3 !important;
     margin: 0;
     margin-bottom: 8px;
     margin-top: 4px;
@@ -233,7 +234,7 @@ h2.title {
 }
 .search_form1 input[type="submit"]{
     padding: 8px 12px;
-    background-color:#f15f43;
+    background-color:#003cb3;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -392,7 +393,7 @@ ul.list_1 li a, ul.list_2 li a{
 	color:#555;
 }
 .col_3 h3, .widget h3{
-    background: #f15f43;
+    background: #003cb3;
     font-size: 1.2em;
     color: #fff;
     padding: 10px;
@@ -543,7 +544,7 @@ span.yellow a {
 	font-weight:300;
 }
 .grid_3 .red{
-    background: #f15f43;
+    background: #003cb3;
     color: #fff;
     outline: none;
     border-radius: 30px;
@@ -694,8 +695,8 @@ span.m_2{
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #fff;
-    background-color:#2185C5;
-    border:1px solid #2185C5;
+    background-color:#003cb3;
+    border:2px solid #003cb3;
 }
 .nav-tabs {
     border-bottom: 1px solid #f15f43;
@@ -893,7 +894,8 @@ i.tw2{
 }
 /* -- following --*/
 .single h2::after, .content_bottom h3:after, .grid_1 h3:after, .about_bottom h3:after{
-    background:#f15f43;
+    /* abel*/
+    background:#003cb3;
     content: "";
     display: block;
     height: 5px;
@@ -1813,7 +1815,7 @@ ul.wmuSliderPagination {
 	-o-border-radius:10px;
 }
 .wmuSliderPagination a.wmuActive {
-	background:#f15f43;
+	background:#003cb3;
 }
 .about_middle h3{
 	color: #fff;
@@ -1823,7 +1825,7 @@ ul.wmuSliderPagination {
     text-align: center;
 }
 .about_middle h3:after {
-    background: #f15f43;
+    background: #003cb3;
     content: "";
     display: block;
     height: 5px;
@@ -2778,3 +2780,12 @@ ul.grid-1 li.grid-1_right h4, ul.grid-1 li.grid-1_left h4 {
     background-size: 184%;
 }
 }
+.perfil img{
+    height: 110px;
+    width: 110px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;               
+    }
