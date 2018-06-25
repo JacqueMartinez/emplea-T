@@ -522,8 +522,8 @@ $(window).load(function () {
                 </div>
         </div>-->
 
-        <div id="modalSesion" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
+        <div id="modalSesion" class="modal fade " role="dialog">
+            <div class="modal-dialog modal-sm ">
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
@@ -533,21 +533,21 @@ $(window).load(function () {
                     <div class="modal-body">
                         <form class="form-inline">
                             <div class="form-group">
-                                <div class="col-sm-10">
+                                <div class="col-sm-8">
                                     <input type="email" class="form-control" id="inputEmail3" placeholder="User123">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-10">
+                                <div class="col-sm-8">
                                     <input type="password" class="form-control" id="inputPassword3" placeholder="contraseña123">
                                 </div>
                             </div>
                             <button type="submit" class="btn btn-default">Iniciar Sesión</button>
                         </form>
                     </div>
-                    <div class="modal-footer">
+                  <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-default danger" data-dismiss="modal">Cerrar</button>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>

@@ -1579,12 +1579,12 @@ select#country {
     border-color: #444 !important;
     outline: 0;
 }
-input.btn.btn-primary.btn-sm {
+ input.btn.btn-primary.btn-sm {
     padding: 10px 45px;
     font-size: 1em;
     outline: none;
-    background:#f15f43;
-    border-color:#f15f43;
+    background: #003cb3;
+    border-color:#003cb3;
 }
 .form-actions.floatRight {
     text-align: center;

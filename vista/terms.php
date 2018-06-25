@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -10,13 +10,14 @@
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script> 
         <script src="js/bootstrap.min.js"></script>
         <!-- Custom Theme files -->
         <link href="css/style.css" rel='stylesheet' type='text/css' />
         <link href='//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
         <!----font-Awesome----->
         <link href="css/font-awesome.css" rel="stylesheet"> 
+        
         <!----font-Awesome----->
     </head>
     <body>
@@ -29,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""/></a>
+                    <a class="navbar-brand" href="index.php"><img src="recursos/logo.png" alt=""/></a>
                 </div>
                 <!--/.navbar-header-->
                 <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
@@ -124,96 +125,108 @@
                     <h2>Datos de la empresa</h2>
                     <form>
                         <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="firstName">Nombre de la empresa</label>
-                                <div class="col-md-6">
-                                    <input type="text"  id="firstName" class="form-control input-sm"/>
+                            <div class="col-md-12">
+                                <div class="form-group col-md-7">
+                                    <label class="col-md-4 control-lable" for="firstName">Nombre de la empresa</label>
+                                    <div class="col-md-8">
+                                        <input type="text"  id="firstName" class="form-control input-sm"/>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Dirección</label>
-                                <div class="col-md-6">
-                                    <input type="text"  id="lastName" class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Teléfono</label>
-                                <div class="col-md-6">
-                                    <input type="text"  id="lastName" class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" >Horario de citas</label>
-                                <div class="col-md-6">
-                                    <input type="text"   class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>                        
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="lastName">Fax</label>
-                                <div class="col-md-6">
-                                    <input type="text"  id="lastName" class="form-control input-sm"/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <label class="col-md-3 control-lable" for="Logo">Logo</label>
-                                <div class="search_form1">                                    
+                                <div class="form-group col-md-5">
+                                    <label class="col-md-3 control-lable" for="lastName">Teléfono</label>
                                     <div class="col-md-9">
-                                        <input type="file" name="myfile">                                            
+                                        <input type="text"  id="lastName" class="form-control input-sm"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group col-md-7">
+                                    <label class="col-md-4 control-lable" for="lastName">Dirección</label>
+                                    <div class="col-md-8">
+                                        <input type="text"  id="lastName" class="form-control input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <label class="col-md-3 control-lable" for="lastName">Fax</label>
+                                    <div class="col-md-9">
+                                        <input type="text"  id="lastName" class="form-control input-sm"/>
                                     </div>
                                 </div>
                             </div>
-                        </div>           
-                        <br>                        
-                        <h2>Enlaces</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group col-md-7">
+                                    <label class="col-md-4 control-lable" >Horario de citas</label>
+                                    <div class="col-md-8">
+                                        <input type="text"   class="form-control input-sm"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group col-md-7">
+                                    <label class="col-md-3 control-label" for="Logo">Logo</label>
+                                    <div class="search_form1">                                    
+                                        <div class="col-md-9">
+                                            <input type="file" name="myfile">                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <br>   
+                       
+                            <h2>Enlaces</h2>
+                            
+                        
                         <form>
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="col-md-3 control-lable" for="firstName">Facebook</label>
-                                    <div class="col-md-6">
+                                <div class="col-md-12">
+                                <div class="form-group col-md-6">
+                                    <label class="col-md-4 control-lable" for="firstName">Facebook</label>
+                                    <div class="col-md-8">
+                                        <input type="text"  id="firstName" class="form-control input-sm"/>
+                                    </div>
+                                </div>
+                         
+                            <div class="form-group col-md-6">
+                                    <label class="col-md-4 control-lable" for="firstName">Twiter</label>
+                                    <div class="col-md-8">
+                                        <input type="text"  id="firstName" class="form-control input-sm"/>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <div class="form-group col-md-6">
+                                    <label class="col-md-4 control-lable" for="firstName">YouTube</label>
+                                    <div class="col-md-8">
+                                        <input type="text"  id="firstName" class="form-control input-sm"/>
+                                    </div>
+                                </div>
+                           <div class="form-group col-md-6">
+                                    <label class="col-md-4 control-lable" for="firstName">Sitio Web</label>
+                                    <div class="col-md-8">
                                         <input type="text"  id="firstName" class="form-control input-sm"/>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="col-md-3 control-lable" for="firstName">Twiter</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  id="firstName" class="form-control input-sm"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="col-md-3 control-lable" for="firstName">YouTube</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  id="firstName" class="form-control input-sm"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label class="col-md-3 control-lable" for="firstName">Sitio Web</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  id="firstName" class="form-control input-sm"/>
-                                    </div>
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="form-actions floatRight">
                                     <input type="submit" value="Guardar" class="btn btn-primary btn-sm">
                                 </div>
                             </div> 
+                            
+                        
                         </form>        
                 </div>
             </div>
@@ -340,7 +353,7 @@
         <div class="clearfix"> </div>
     </div>
    </div> -->
-    <div class="footer">
+    <!--<div class="footer">
         <div class="container">
             <div class="col-md-3 grid_3">
                 <h4>Navigate</h4>
@@ -418,5 +431,39 @@
             </div>
         </div>
     </div>-->
+    <div class="footer">
+            <div class="container">
+                <div class="col-md-4 grid_3">
+                    <h4 style="text-align: center">Nosotros</h4>
+                    <ul class="f_list f_list1">
+                        <li><a href="" style="color: #99ffdd" >BIT</a></li>
+                        <li><img src="images/bit.png" width="120" height="120" class="img-responsive" /></li>
+                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
+                        <li></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4 grid_3">
+                    <ul class="f_list f_list1">
+                        <li><br><a href="" style="color: #99ffdd">DEVSOFT</a></li>
+                        
+                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
+                                    
+                    </ul>
+                    <div class="clearfix"> </div>
+                
+                </div>
+                               
+                <div class="col-md-4 grid_3">
+                    <h4></h4>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Comentarios">
+                        <button type="button" class="btn red">Enviar</button>
+                    </form>
+                    <p><br> ©2018 EMPLEA-T &emsp;| &emsp;POLÍTICA DE PRIVACIDAD</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
 </body>
 </html>	
