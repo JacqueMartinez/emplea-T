@@ -12,7 +12,7 @@ if (isset($_POST['formLogin'])) { //Se verifica que el input del modal de login 
 
 if (isset($_GET['exit'])){
     session_destroy();
-    header('Location: http://localhost/Seeking/php/vista/');
+    header('Location: http://localhost/Emplea-T/vista/');
 }
 
 /**

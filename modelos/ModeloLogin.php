@@ -24,11 +24,11 @@ class ModeloLogin {
             $statement->execute(); //Se ejecuta la consulta            
             $usuario = $statement->fetch(PDO::FETCH_ASSOC);
             if ($usuario === false) {
-               header('Location: http://localhost/Seeking/php/vista/?login=error');
+               header('Location: http://localhost/Emplea-T/vista/?login=error');
             } else {
                 $_SESSION['usuario'] = $usuario['usuario_id'];
                 $_SESSION['nombre'] = $usuario['nombre'];
-                header('Location: http://localhost/Seeking/php/vista');
+                header('Location: http://localhost/Emplea-T/vista');
             }
         } catch (Exception $ex) {
             $ex->getMessage();
