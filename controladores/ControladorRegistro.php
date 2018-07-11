@@ -10,7 +10,7 @@ if (isset($_POST['formRegistro'])) {
     
 //Verificar que las contraseñas coincidan
     if ($datos["pass"] != $datos["rpass"]) {
-        header('Location: http://localhost/Seeking/php/vista/registro.php?password=error');
+        header('Location: http://localhost/Emplea-T/vista/registro.php?password=error');
     } else {
         ControladorRegistro::registrarUsuario($datos);
     }

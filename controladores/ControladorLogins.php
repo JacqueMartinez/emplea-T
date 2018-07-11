@@ -1,5 +1,4 @@
 <?php
-
 session_start(); //Se inicia una sesión
 require_once '../modelos/ModeloLogin.php';
 
@@ -12,7 +11,7 @@ if (isset($_POST['formLogin'])) { //Se verifica que el input del modal de login 
 
 if (isset($_GET['exit'])){
     session_destroy();
-    header('Location: http://localhost/Emplea-T/vista/');
+    header('Location: http://localhost/Emplea-T/vista');
 }
 
 /**
@@ -21,12 +20,7 @@ if (isset($_GET['exit'])){
  * @author Cesar
  */
 class ControladorLogins {
-
     function validarUsuario($email, $password) {
         ModeloLogin::validarUsuario($email, $password);
-    }
-    
-    function cerrarSesion(){
-        
-    }
+    }        
 }

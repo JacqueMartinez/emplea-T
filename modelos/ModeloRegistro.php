@@ -24,7 +24,7 @@ class ModeloRegistro {
             if ($usuario === false) {
                 ModeloRegistro::registrarUsuario($datos);
             } else {                
-                header('Location: http://localhost/Seeking/php/vista/registro.php?email=error');
+                header('Location: http://localhost/Emplea-T/vista/registro.php?email=error');
             }
         } catch (Exception $ex) {
             $ex->getMessage();
@@ -40,7 +40,7 @@ class ModeloRegistro {
             $statement->bindParam(4, $datos['email']);
             $statement->bindParam(5, md5($datos['pass']));              
             if ($statement->execute()) {
-                header('Location: http://localhost/Seeking/php/vista/?login=registro');
+                header('Location: http://localhost/Emplea-T/vista/?login=registro');
             }
         } catch (PDOException $ex) {
             $ex->getMessage();

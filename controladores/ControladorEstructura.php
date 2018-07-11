@@ -1,11 +1,5 @@
 <?php
 
-if (!isset($_SESSION['usuario'])) {
-    $sesion = false;
-} else {
-    $sesion = true;
-}
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -25,7 +19,7 @@ class ControladorEstructura
         return '<!--Comienza header-->
          <head>
             <title>Emplea-T | Portal de ofertas y búsqueda de empleos</title>
-            <link rel="icon" href="assets/img/BIT.png">
+            <link rel="icon" href="recursos/sitio/logo.png">
             <meta name="viewport" content="width = device-width, initial-scale = 1">
             <meta http-equiv="Content-Type" content="text / html;
             charset = utf-8" />
@@ -45,9 +39,9 @@ class ControladorEstructura
             <!-- Custom Theme files -->
             <link href="css/style.css" rel="stylesheet" type="text/css"/>
             <link href="//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
-            <!-- font-Awesome----->
+            <!-- font-Awesome-->
             <link href="css/font-awesome.css" rel="stylesheet">
-            <!-- font-Awesome----->
+            <!-- font-Awesome-->
         </head>
         <!--Termina header-->';
     }
@@ -60,10 +54,10 @@ class ControladorEstructura
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>S
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><img src="recursos/logo.png" alt=""/></a>
+                <a class="navbar-brand" href="index.php"><img src="recursos/sitio/logo.png" alt=""/></a>
             </div>
             <!--/.navbar-header-->';
         if (!isset($_SESSION['usuario'])) {
@@ -104,15 +98,15 @@ class ControladorEstructura
             <div class="container">                
                 <div class="col-md-4 grid_3 text-center">
                     
-                    <img src="recursos/bit.png" alt="..." class="img-responsive margin-top">
+                    <img src="recursos/sitio/bit.png" alt="..." class="img-responsive margin-top">
                 </div>
                 <div class="col-md-4 grid_3 text-center">
                     
-                    <img src="recursos/dev.png" alt="..." class="img-thumbnail margin-top">
+                    <img src="recursos/sitio/dev.png" alt="..." class="img-thumbnail margin-top">
                 </div>
                 <div class="col-md-4 grid_3 text-center">
                     
-                    <img src = "recursos/logo_2015.png" alt="..." class="img-responsive margin-top">
+                    <img src = "recursos/sitio/logo_2015.png" alt="..." class="img-responsive margin-top">
                 </div>
                 <div class="clearfix"> </div>
             </div>

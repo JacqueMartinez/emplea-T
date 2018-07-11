@@ -348,6 +348,9 @@ include_once '../controladores/ControladorEstructura.php';
                             </tbody>
                         </table>
                     </div>
+                    <div class="col-md-12">
+                        <input type="submit" name="publicarOferta" value="PUBLICAR" class="btn btn-primary btn-sm">
+                    </div>
                 </div>
                     </div>
                 </div>                

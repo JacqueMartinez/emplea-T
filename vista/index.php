@@ -2,11 +2,6 @@
 include_once '../controladores/ControladorLogins.php';
 include_once '../controladores/ControladorEstructura.php';
 
-if (isset($_SESSION['usuario'])) {
-    $nombre = '<li><a href="#"> Hola ' . $_SESSION['nombre'] . ' </a></li>';
-} else {
-    $nombre = '';
-}
 ?>
     <!DOCTYPE HTML>
     <html>
@@ -444,8 +439,7 @@ if (isset($_SESSION['usuario'])) {
                         <!--<button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>-->
                         <h6>¿No tienes cuenta?
                             <a href="registro.php">Crear una cuenta</a>
-                        </h6>
-                        <!--<h6><a href="#">Olvidé mi contraseña</a></h6>-->
+                        </h6>                        
                     </div>
                 </div>
 

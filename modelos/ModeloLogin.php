@@ -1,6 +1,5 @@
 <?php
-
-require_once '../database/ConexionBD.php';
+include_once '../database/ConexionBD.php';
 
 /*
  * To change this license header, choose License Headers in Project Properties.
