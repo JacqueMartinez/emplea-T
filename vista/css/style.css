@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 100%;
-    background:#fff; 
+    background:#FFF; 
 }
 body a{
 	transition:0.5s all;
@@ -449,10 +449,11 @@ a.seeking-vote-button:hover{
 	text-decoration:none;
 	border-color: #f15f43;
 }
+
 /*-- footer --*/
 .footer{
 	padding:2em 0;
-	background:#444;
+	background:#efefef;
 }
 .footer_bottom{
 	padding:2em 0;

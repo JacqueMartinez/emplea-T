@@ -1,59 +1,19 @@
+<?php
+include_once '../controladores/ControladorLogins.php';
+include_once '../controladores/ControladorEstructura.php';
+
+if (isset($_SESSION['usuario'])) {
+    $nombre = '<li><a href="#"> Hola ' . $_SESSION['nombre'] . ' </a></li>';
+} else {
+    $nombre = '';
+}
+?>
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Emplea-T | Portal de ofertas y búsqueda de empleos</title>
-        <link rel="icon" href="assets/img/BIT.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="keywords" content="Empleos tehuacan, trabajos en tehuacan" />
-        <script type="application/x-javascript">
-            addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-            }, false);
-
-            function hideURLbar() {
-            window.scrollTo(0, 1);
-            }
-        </script>
-        <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Custom Theme files -->
-        <link href="css/style.css" rel='stylesheet' type='text/css' />
-        <link href='//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-        <!-- font-Awesome----->
-        <link href="css/font-awesome.css" rel="stylesheet">
-        <!-- font-Awesome----->
-    </head>
-
+    <?php echo ControladorEstructura::getHeader(); ?>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="recursos/logo.png" alt=""/></a>
-                </div>
-                <!--/.navbar-header-->
-                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
-                    <ul class="nav navbar-nav">
-                        <li><a href="jobs.php">Empleos</a></li>
-                        <li><a href="about.php">Publicar oferta</a></li>
-                        <li><a href="" data-toggle="modal" data-target="#modalSesion">Iniciar sesión</a></li>
-                        <li><a href="registro.php">Crear cuenta</a></li>
-                        <li><a href="resume.php">Busco empleo</a></li>
-                    </ul>
-                </div>
-                <!--/.navbar-collapse-->
-                <div class="clearfix"> </div>
-            </div>
-            <!--/.container-->
-        </nav>
+        <?php echo ControladorEstructura::getNavbar();?>
+
         <!--/.navbar-default-->
         <!--<div class="banner">
                 <div class="container">
@@ -220,7 +180,7 @@
             <div class="single">
                 <div class="col-md-4">
                     <div class="col_3">
-                        <h3>Ofertas de empleo</h3>
+                        <h3>Últimas ofertas publicadas</h3>
                         <ul class="list_1">
                             <li><a href="#">Solicito personal en el area de..</a></li>
                             <li><a href="#">Solicito personal en el area de..</a></li>
@@ -234,11 +194,7 @@
                             <li><a href="#">Solicito personal en el area de..</a></li>
                             <li><a href="#">Solicito personal en el area de..</a></li>
                         </ul>
-                    </div>
-                    <div class="col_3">
-                        <h3></h3>
-
-                    </div>
+                    </div>                    
                     <!--<div class="widget">
                             <h3>Take The Seeking Poll!</h3>
                             <div class="widget-content">
@@ -277,7 +233,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="grid_1" style="padding: 10px;">
-                        <h3>En busca de empleo</h3>                        
+                        <h3>Ofertas exclusivas</h3>                        
                     </div>
                     <div class="col_1">
                         <!--<div class="col-sm-4 row_2">
@@ -390,137 +346,15 @@
                     </div>
                     <div class="col_1">
 
-                    </div><div class="col_1">
-                        <!--<div class="col-sm-4 row_2">
-                                <a href="single.html"><img src="images/a1." class="img-responsive" alt=""/></a>
-                        </div>-->
-
+                    </div><div class="col_1">                       
                         <div class="clearfix"> </div>
                     </div>
                 </div>
                 <div class="clearfix"> </div>
             </div>
-        </div>
+        </div>                
 
-        <div class="footer">
-            <div class="container">
-                <div class="col-md-4 grid_3">
-                    <h4 style="text-align: center">Nosotros</h4>
-                    <ul class="f_list f_list1">
-                        <li><a href="" style="color: #99ffdd" >BIT</a></li>
-                        <li><img src="images/bit.png" width="120" height="120" class="img-responsive" /></li>
-                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
-                        <li></li>
-
-                    </ul>
-                </div>
-                <div class="col-md-4 grid_3">
-                    <ul class="f_list f_list1">
-                        <li><br><a href="" style="color: #99ffdd">DEVSOFT</a></li>
-
-                        <li> <br> &emsp;<i class="fa fa-facebook fb"> &emsp;</i> <i class="fa fa-twitter tw"></i> </li>
-
-                    </ul>
-                    <div class="clearfix"> </div>
-
-                </div>
-
-                <div class="col-md-4 grid_3">
-                    <h4></h4>
-                    <form>
-                        <input type="text" class="form-control" placeholder="Comentarios">
-                        <button type="button" class="btn red">Enviar</button>
-                    </form>
-                    <p><br> ©2018 EMPLEA-T &emsp;| &emsp;POLÍTICA DE PRIVACIDAD</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <!--<div class="footer">
-            <div class="container">
-                <div class="col-md-3 grid_3">
-                    <h4>Navigate</h4>
-                    <ul class="f_list f_list1">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="login.html">Sign In</a></li>
-                        <li><a href="login.html">Join Now</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-                    <ul class="f_list">
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="terms.html">Terms of use</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="jobs.html">Post a Job</a></li>
-                    </ul>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-3 grid_3">
-                    <h4>Twitter Widget</h4>
-                    <div class="footer-list">
-                        <ul>
-                            <li><i class="fa fa-twitter tw1"> </i>
-                                <p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p>
-                            </li>
-                            <li><i class="fa fa-twitter tw1"> </i>
-                                <p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p>
-                            </li>
-                            <li><i class="fa fa-twitter tw1"> </i>
-                                <p><span class="yellow"><a href="#">consectetuer</a></span> adipiscing elit web design</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 grid_3">
-                    <h4>Seeking</h4>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                </div>
-                <div class="col-md-3 grid_3">
-                    <h4>Sign up for our newsletter</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
-                    <form>
-                        <input type="text" class="form-control" placeholder="Enter your email">
-                        <button type="button" class="btn red">Subscribe now!</button>
-                    </form>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>-->
-        <!--<div class="footer_bottom">
-                <div class="container">
-                        <div class="col-sm-2">
-                                <ul class="f_list2">
-                                        <li><a href="jobs.html">Russia Jobs</a></li>
-                                        <li><a href="jobs.html">Australia Jobs</a></li>
-                                        <li><a href="jobs.html">Srilanka Jobs</a></li>
-                                        <li><a href="jobs.html">Poland Jobs</a></li>
-                                </ul>
-                        </div>
-                        <div class="col-sm-2">
-                                <ul class="f_list2">
-                                        <li><a href="jobs.html">New Zealand Jobs</a></li>
-                                        <li><a href="jobs.html">Pakistan Jobs</a></li>
-                                        <li><a href="jobs.html">Srilanka Jobs</a></li>
-                                        <li><a href="jobs.html">Irland Jobs</a></li>
-                                </ul>
-                        </div>
-                        <div class="col-sm-2">
-                                <ul class="f_list2">
-                                        <li><a href="jobs.html">Canada Jobs</a></li>
-                                        <li><a href="jobs.html">Germany Jobs</a></li>
-                                        <li><a href="jobs.html">China Jobs</a></li>
-                                        <li><a href="jobs.html">Nepal Jobs</a></li>
-                                </ul>
-                        </div>
-                        <div class="col-sm-6 footer_text">
-                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numqua"</p>
-                        </div>
-                        <div class="clearfix"> </div>
-                        <div class="copy">
-                                <p>Copyright © 2015 Seeking . All Rights Reserved . Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-                        </div>
-                </div>
-        </div>-->
+        <?php echo ControladorEstructura::getFooter(); ?>
 
         <!-- Modal -->
         <div class="modal fade" id="modalSesion" role="dialog">
@@ -535,31 +369,41 @@
                         </div>                            
                     </div>
                     <div class="modal-body" style="padding:40px 50px;">
-                        <form role="form">
+                        <form role="form" action="" method="POST">                                                        
                             <div class="form-group">
                                 <label for="usuario">&nbsp;<span class="fa fa-user"></span> Correo electrónico</label>
-                                <input type="text" class="form-control" id="usuario" placeholder="Ingresar correo electrónico">
+                                <input type="text" class="form-control" name="email" placeholder="Ingresar correo electrónico" required="true"/>
                             </div>
                             <div class="form-group">
-                                <label for="psw">&nbsp;<span class="fa fa-eye"></span> Contraseña</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Ingresar contraseña">
+                                <label for="psw">&nbsp;<span class="fa fa-key"></span> Contraseña</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control pwd" name="password" id="psw" placeholder="Ingresar contraseña" required="true"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn  reveal" type="button"><i class="fa fa-eye" id="icono"></i></button>
+                                    </span>          
+                                </div>                                                                
                             </div>
+                            <!--                            <div class="form-group">
+                                                            <label><input type="checkbox" value="Recordar">&nbsp; Recordarme</label>
+                                                        </div>-->
                             <div class="form-group">
-                                <label><input type="checkbox" value="Recordar">&nbsp; Recordarme</label>
-                            </div>
-                            <button type="submit" class="btn btn-default btn-block"><span class="fa fa-chevron-right"></span> Entrar</button>
-                        </form>
+                                <input type="submit" name="formLogin" value="Iniciar sesión" class="btn btn-primary btn-sm pull-right">
+                            </div>                                                           
+                        </form>                       
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>
-                        <h6>¿No tienes cuenta? <a href="register.php">Crear una cuenta</a></h6>
-                        <h6><a href="#">Olvidé mi contraseña</a></h6>
+                        <!--<button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>-->
+                        <h6>¿No tienes cuenta? <a href="registro.php">Crear una cuenta</a></h6>
+                        <!--<h6><a href="#">Olvidé mi contraseña</a></h6>-->
                     </div>
                 </div>
 
             </div>
-        </div>     <!-- Modal -->
-        <div class="modal fade" id="modalSesion" role="dialog">
+        </div>     
+        <!--End Modal -->
+
+        <!-- Modal  con errores -->
+        <div class="modal fade" id="modalSesionError" role="dialog">
             <div class="modal-dialog">
 
                 <!-- Modal content-->
@@ -570,31 +414,125 @@
                             <h4>&nbsp;<span class="fa fa-lock"></span> Iniciar sesión</h4>
                         </div>                            
                     </div>
-                    <div class="modal-body" style="padding:40px 50px;">
-                        <form role="form">
+                    <div class="modal-body" style="padding:40px 50px;">                        
+                        <form role="form" action="" method="POST">              
+                            <div class="form-group">
+                                <div class="alert alert-danger">
+                                    <strong>Error: </strong> El email o contraseña son incorrectos
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <label for="usuario">&nbsp;<span class="fa fa-user"></span> Correo electrónico</label>
-                                <input type="text" class="form-control" id="usuario" placeholder="Ingresar correo electrónico">
+                                <input type="text" class="form-control" name="email" placeholder="Ingresar correo electrónico" required="true"/>
                             </div>
                             <div class="form-group">
-                                <label for="psw">&nbsp;<span class="fa fa-eye"></span> Contraseña</label>
-                                <input type="text" class="form-control" id="psw" placeholder="Ingresar contraseña">
+                                <label for="psw">&nbsp;<span class="fa fa-key"></span> Contraseña</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control pwd" name="password" id="psw" placeholder="Ingresar contraseña" required="true"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn  reveal" type="button"><i class="fa fa-eye" id="icono"></i></button>
+                                    </span>          
+                                </div>                                                                
                             </div>
+                            <!--                            <div class="form-group">
+                                                            <label><input type="checkbox" value="Recordar">&nbsp; Recordarme</label>
+                                                        </div>-->
                             <div class="form-group">
-                                <label><input type="checkbox" value="Recordar">&nbsp; Recordarme</label>
-                            </div>
-                            <button type="submit" class="btn btn-default btn-block"><span class="fa fa-chevron-right"></span> Entrar</button>
-                        </form>
+                                <input type="submit" name="formLogin" value="Iniciar sesión" class="btn btn-primary btn-sm pull-right">
+                            </div>                                                           
+                        </form>                       
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>
-                        <h6>¿No tienes cuenta? <a href="register.php">Crear una cuenta</a></h6>
-                        <h6><a href="#">Olvidé mi contraseña</a></h6>
+                        <!--<button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>-->
+                        <h6>¿No tienes cuenta? <a href="registro.php">Crear una cuenta</a></h6>
+                        <!--<h6><a href="#">Olvidé mi contraseña</a></h6>-->
                     </div>
                 </div>
 
             </div>
-        </div>     
+        </div>    
+        <!-- End Modal con errores-->        
+
+        <!-- Modal  desde registro -->
+        <div class="modal fade" id="modalDesdeRegistro" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4>&nbsp;<span class="fa fa-lock"></span> Iniciar sesión</h4>
+                        </div>                            
+                    </div>
+                    <div class="modal-body" style="padding:40px 50px;">                        
+                        <form role="form" action="" method="POST">              
+                            <div class="form-group">
+                                <div class="alert alert-success">
+                                    <strong>Cuenta creada: </strong> Por favor inicia sesión para continuar
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="usuario">&nbsp;<span class="fa fa-user"></span> Correo electrónico</label>
+                                <input type="text" class="form-control" name="email" placeholder="Ingresar correo electrónico" required="true"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="psw">&nbsp;<span class="fa fa-key"></span> Contraseña</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control pwd" name="password" id="psw" placeholder="Ingresar contraseña" required="true"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn  reveal" type="button"><i class="fa fa-eye" id="icono"></i></button>
+                                    </span>          
+                                </div>                                                                
+                            </div>
+                            <!--                            <div class="form-group">
+                                                            <label><input type="checkbox" value="Recordar">&nbsp; Recordarme</label>
+                                                        </div>-->
+                            <div class="form-group">
+                                <input type="submit" name="formLogin" value="Iniciar sesión" class="btn btn-primary btn-sm pull-right">
+                            </div>                                                           
+                        </form>                       
+                    </div>
+                    <div class="modal-footer">
+                         <!--<button type="submit" class="btn btn-danger pull-left" data-dismiss="modal"><span class="fa fa-times"></span> Cancelar</button>-->
+                        <h6>¿No tienes cuenta? <a href="registro.php">Crear una cuenta</a></h6>
+                        <!--<h6><a href="#">Olvidé mi contraseña</a></h6>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>    
+        <!-- End Modal desde registro-->  
+
+        <script type="text/javascript">
+                    //Ocultar / Mostrar contraseña
+                    $(".reveal").on('click', function () {
+                        var $pwd = $(".pwd");
+                        var $icono = $("#icono");
+                        if ($pwd.attr('type') === 'password') {
+                            $pwd.attr('type', 'text');
+                            $icono.removeClass("fa-eye");
+                            $icono.addClass("fa-eye-slash");
+                        } else {
+                            $pwd.attr('type', 'password');
+                            $icono.removeClass("fa-eye-slash");
+                            $icono.addClass("fa-eye");
+                        }
+                    });
+        </script>
+
+        <?php
+        if (isset($_GET['login'])) {
+            if (($_GET['login'] == 'error')) {
+                ?>
+                <script type="text/javascript"> $("#modalSesionError").modal("show")</script>
+            <?php } else if ($_GET['login'] == 'registro') {
+                ?>
+                <script type="text/javascript"> $("#modalDesdeRegistro").modal("show")</script>
+                <?php
+            }
+        }
+        ?>                
     </body>
 </html>                                                              
 

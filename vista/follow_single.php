@@ -19,7 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!----font-Awesome----->
 </head>
 <body>
-<?php echo $navbar; ?>
+
 <div class="banner_1">
 	<div class="container">
 		<div id="search_wrapper1">
