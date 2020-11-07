@@ -160,7 +160,8 @@ include_once '../controladores/ControladorEstructura.php';
                             <h6>Llámame...
                                 <span class="dot">·</span> Jul. 31, 2015</h6>
                             <p>Tengo experiencia en ....</p>
-                            <div class="social">
+                            <!-- ELIMINAR LAS REDES SOCIALES -->
+<!--                            <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
                                     <span class="share1 fb">Comparte</span>
@@ -173,7 +174,7 @@ include_once '../controladores/ControladorEstructura.php';
                                     <i class="fa fa-google-plus google"></i>
                                     <span class="share1 google">Comparte</span>
                                 </a>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -189,7 +190,7 @@ include_once '../controladores/ControladorEstructura.php';
                             <h6>Llámame...
                                 <span class="dot">·</span> Jul. 31, 2015</h6>
                             <p>Tengo experiencia en ....</p>
-                            <div class="social">
+<!--                            <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
                                     <span class="share1 fb">Comparte</span>
@@ -202,7 +203,7 @@ include_once '../controladores/ControladorEstructura.php';
                                     <i class="fa fa-google-plus google"></i>
                                     <span class="share1 google">Comparte</span>
                                 </a>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -218,7 +219,7 @@ include_once '../controladores/ControladorEstructura.php';
                             <h6>Llámame...
                                 <span class="dot">·</span> Jul. 31, 2015</h6>
                             <p>Tengo experiencia en ....</p>
-                            <div class="social">
+<!--                            <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
                                     <span class="share1 fb">Comparte</span>
@@ -231,7 +232,7 @@ include_once '../controladores/ControladorEstructura.php';
                                     <i class="fa fa-google-plus google"></i>
                                     <span class="share1 google">Comparte</span>
                                 </a>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -246,7 +247,7 @@ include_once '../controladores/ControladorEstructura.php';
                             <h6>Llámame...
                                 <span class="dot">·</span> Jul. 31, 2015</h6>
                             <p>Tengo experiencia en ....</p>
-                            <div class="social">
+<!--                            <div class="social">
                                 <a class="btn_1" href="#">
                                     <i class="fa fa-facebook fb"></i>
                                     <span class="share1 fb">Comparte</span>
@@ -259,7 +260,7 @@ include_once '../controladores/ControladorEstructura.php';
                                     <i class="fa fa-google-plus google"></i>
                                     <span class="share1 google">Comparte</span>
                                 </a>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="clearfix"> </div>
                     </div>

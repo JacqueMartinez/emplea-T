@@ -15,7 +15,7 @@ include_once '../database/ConexionBD.php';
 class ModeloLogin {
 
     public function validarUsuario($email, $password) {
-        $encriptada = md5($password); //Es necesario ncriptar la contraseña que el usuario ingresa para compararla con la contraseña encriptada de la tabla                         
+        $encriptada =md5($password); //Es necesario ncriptar la contraseña que el usuario ingresa para compararla con la contraseña encriptada de la tabla                         
         try {
             $statement = ConexionBD::conectarBD()->prepare('SELECT * FROM usuario WHERE correo = ? AND password = ?'); //Se prepara la consulta almacenada en la variable $sql
             $statement->bindParam(1, $email);

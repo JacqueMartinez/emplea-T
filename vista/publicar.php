@@ -27,7 +27,8 @@ include_once '../controladores/ControladorEstructura.php';
                     </div>
                     <div class="row">
                         <div class="form-group col-md-12">
-                            <label class="col-md-3 control-lable" for="firstName">Puesto</label>
+                            <label class="col-md-3 control19
+                                   -lable" for="firstName">Puesto</label>
                             <div class="col-md-9">
                                 <input type="text" path="firstName" name="titulo" class="form-control input-sm" />
                             </div>
@@ -117,17 +118,19 @@ include_once '../controladores/ControladorEstructura.php';
                     </div>
                     <div class="row">
                         <div class="form-group col-md-12">
-                            <label class="col-md-3 control-lable">Funciones a desempeñar</label>
+                            <label class="col-md-3 control-lable" for="firstName">Funciones a desempeñar</label>
                             <div class="col-md-9">
-                                <textarea class="col-md-12" name="funciones"></textarea>
+                                
+                                <textarea type="text"  name="funciones" class="form-control "></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-12">
                             <label class="col-md-3 control-lable">Conocimientos requeridos</label>
-                            <div class="col-md-9">
-                                <textarea class="col-md-12" name="conocimientos"></textarea>
+                           <div class="col-md-9">
+                                
+                                <textarea type="text"  name="conocimientos" class="form-control "></textarea>
                             </div>
                         </div>
                     </div>
@@ -135,7 +138,7 @@ include_once '../controladores/ControladorEstructura.php';
                         <div class="form-group col-md-12">
                             <label class="col-md-3 control-lable">Observaciones</label>
                             <div class="col-md-9">
-                                <textarea class="col-md-12 " name="observaciones"></textarea>
+                                 <textarea type="text"  name="observaciones" class="form-control "></textarea>
                             </div>
                         </div>
                     </div>

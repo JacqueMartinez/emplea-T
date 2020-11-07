@@ -1,7 +1,11 @@
+<?php
 
+include_once '../controladores/ControladorEstructura.php';
+
+?>
 <!DOCTYPE HTML>
 <html>
-    <head>
+<!--    <head>
         <title>Seeking an Job Portal Category Flat Bootstrap Responsive Website Template | Resume :: w3layouts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,18 +13,20 @@
               Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         jQuery (necessary for Bootstrap's JavaScript plugins) 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- Custom Theme files -->
+         Custom Theme files 
         <link href="css/style.css" rel='stylesheet' type='text/css' />
         <link href='//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-        <!----font-Awesome----->
+        --font-Awesome---
         <link href="css/font-awesome.css" rel="stylesheet">
-        <!----font-Awesome----->
-    </head>
+        --font-Awesome---
+    </head>-->
+ <?php echo ControladorEstructura::getHeader(); ?>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
+        <?php echo ControladorEstructura::getNavbar(); ?>
+<!--        <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -31,7 +37,7 @@
                     </button>
                     <a class="navbar-brand" href="index.php"><img src="recursos/logo.png" alt=""/></a>
                 </div>
-                <!--/.navbar-header-->
+                /.navbar-header
                 <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
                     <ul class="nav navbar-nav">
                         <li><a href="jobs.php">Empleos</a></li>
@@ -41,11 +47,11 @@
                         <li><a href="resume.php">Subir curriculum</a></li>
                     </ul>
                 </div>
-                <!--/.navbar-collapse-->
+                /.navbar-collapse
                 <div class="clearfix"> </div>
             </div>
-            <!--/.container-->
-        </nav>
+            /.container
+        </nav>-->
         <!--/.navbar-default-->
         <!--<div class="banner_1">
                 <div class="container">
@@ -81,13 +87,13 @@
                 <div class="form-container">
                     <h2>Busco empleo</h2>
                     <form>
-                        <div class="row">
+<!--                        <div class="row">
                             <div class="form-group col-md-12">
                                 <div class="form-actions floatRight" class="">                                                                
                                     <input value="Puesto" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalcategoria" type="button">
                                 </div>
                             </div>
-                        </div>                         
+                        </div>                         -->
                         
                         <div class="row">
                             <div class="form-group col-md-12">
@@ -149,10 +155,11 @@
                 </div>
             </div>
         </div>
+        <?php echo ControladorEstructura::getFooter(); ?>
         <!--modal-->
-        <div id="modalcategoria" class="modal fade" role="dialog">
+<!--        <div id="modalcategoria" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
+                 Modal content
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -217,12 +224,12 @@
                 </div>
             </div>
 
-        </div>
+        </div>-->
         <!--/.modal fade-->
-    </div>
+<!--    </div>-->
     <!--modal-->
     <!--contenido-->
-    <div class="footer">
+<!--    <div class="footer">
         <div class="container">
             <div class="col-md-3 grid_3">
                 <h4>Navigate</h4>
@@ -264,9 +271,9 @@
             </div>
             <div class="clearfix"> </div>
         </div>
-    </div>
-    <div class="footer_bottom">	
-        <!--<div class="container">
+    </div>-->
+<!--    <div class="footer_bottom">	
+        <div class="container">
           <div class="col-sm-2">
                       <ul class="f_list2">
                               <li><a href="jobs.html">Russia Jobs</a></li>
@@ -298,7 +305,7 @@
               <div class="copy">
                       <p>Copyright © 2015 Seeking . All Rights Reserved . Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
               </div>
-        </div>-->
-    </div>
+        </div>
+    </div>-->
 </body>
 </html>
